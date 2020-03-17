@@ -2,6 +2,6 @@ stages:
 - name: Deploy
   steps:
   - applyYamlConfig:
-      path: ./tomcatarm64-deployment
+      path: ./tomcatarm64-deployment.yaml
 timeout: 60
 notification: {}
