@@ -33,7 +33,7 @@ spec:
         value: "true"
       containers:
       - name: tomcatarm64
-        image: 192.168.131.125:8085/arm64/tomcat:8.5.41-jdk11
+        image: arm64/tomcat:8.5.41-jdk11
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
